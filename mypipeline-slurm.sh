@@ -32,3 +32,4 @@ print(time.localtime()); \
 print(time.time()-t0);"
 
 aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:997882135524:awsnotify --message "JobDone"
+
